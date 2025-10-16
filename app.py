@@ -15,7 +15,7 @@ async def beerbot_decision(request: Request):
     if body.get("handshake", False):
         return {
             "ok": True,
-            "student_email": "eesnimi.perenimi@taltech.ee",  # <-- muuda enda email
+            "student_email": "jaakta@taltech.ee",  # <-- muuda enda email
             "algorithm_name": "BullwhipBreaker",
             "version": "v1.0.0",
             "supports": {"blackbox": True, "glassbox": False},
