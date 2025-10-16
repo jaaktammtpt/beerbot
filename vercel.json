@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/decision.py": {
+      "runtime": "python3.11"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/decision",
+      "dest": "api/decision.py"
+    }
+  ]
+}
