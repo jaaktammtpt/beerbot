@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "functions": {
-    "api/decision.py": {
-      "runtime": "@vercel/python"
+  "builds": [
+    {
+      "src": "api/decision.py",
+      "use": "@vercel/python"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/decision",
